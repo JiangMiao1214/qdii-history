@@ -1,0 +1,120 @@
+name: QDII cloud update and Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 15:00 UTC = 23:00 Asia/Shanghai. The gate excludes non-month-end days.
+    - cron: '0 15 28-31 * *'
+  push:
+    branches: [main]
+    paths: ['site/**', 'scripts/**', 'tests/**', 'requirements.txt', '.github/workflows/**']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qdii-production
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Get workflow creation time
+        id: clock
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const run = await github.rest.actions.getWorkflowRun({...context.repo,run_id:context.runId});
+            core.setOutput('created',run.data.created_at);
+      - id: gate
+        env:
+          RUN_CREATED_AT: ${{ steps.clock.outputs.created }}
+        run: python scripts/month_end.py
+    permissions:
+      contents: read
+      actions: read
+
+  update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Initialize verified official archive if needed
+        run: python scripts/bootstrap.py
+      - run: python -m unittest discover -s tests -v
+      - name: Collect and independently validate new reports
+        run: python scripts/collect.py
+      - run: python scripts/build.py
+      - run: node --check dist/app.js
+      - name: Preserve the validated archive and successful check
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update validated QDII archive [skip ci]'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify public website is reachable
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: curl --fail --location --retry 6 --retry-delay 10 --retry-all-errors --max-time 30 "${PAGE_URL}data.json" -o /tmp/qdii-live.json
+
+  notify:
+    needs: [gate, update, deploy]
+    if: always() && needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Send completion or failure notification
+        uses: actions/github-script@v8
+        env:
+          NOTIFY_LOGIN: ${{ vars.NOTIFY_LOGIN || 'JiangMiao1214' }}
+          PAGE_URL: ${{ needs.deploy.outputs.page_url }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+        with:
+          script: |
+            const notify = require('./scripts/notify.cjs');
+            await notify({github, context, core});
+
