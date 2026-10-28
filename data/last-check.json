@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-28T21:17:00+08:00",
+  "newReports": [],
+  "latestDate": "2026-09-30",
+  "total": 1830.09,
+  "count": 196,
+  "reports": 57,
+  "warnings": [],
+  "sources": [
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/1019/3307.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0902/3288.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0804/3267.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0703/3243.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0603/3228.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0331/3192.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0303/3178.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0202/3162.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2026/0109/3145.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2025/1210/3130.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2025/1113/3109.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2025/1009/3085.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2025/0909/3058.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/guangdong/2025/0731/3027.html",
+      "pdfCount": 1
+    },
+    {
+      "pageUrl": "https://www.safe.gov.cn/safe/2018/0425/16849.html",
+      "pdfCount": 1
+    }
+  ],
+  "missingMonths": [
+    "2021-10",
+    "2022-01",
+    "2022-02"
+  ]
+}

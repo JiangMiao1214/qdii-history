@@ -1,0 +1,39 @@
+{
+  "reports": 57,
+  "institutionRows": 10585,
+  "missingMonths": [
+    "2021-10",
+    "2022-01",
+    "2022-02"
+  ],
+  "errors": [],
+  "conflicts": [],
+  "independentPdfAudit": {
+    "parser": "pypdf (independent of pdfplumber extraction)",
+    "reports": 57,
+    "institutionRows": 10585,
+    "checked": [
+      "report date",
+      "individual institution name",
+      "individual approved date",
+      "individual quota",
+      "category counts",
+      "category totals",
+      "grand total"
+    ]
+  },
+  "extractionCorrections": [
+    {
+      "month": "2026-08",
+      "rows": [
+        87,
+        88
+      ],
+      "reason": "PDF line wrapping across row border",
+      "names": [
+        "申万宏源证券有限公司（申万宏源证券资产管理有限公司）",
+        "中银国际证券股份有限公司"
+      ]
+    }
+  ]
+}
