@@ -11,7 +11,7 @@ def build():
     validate(data)
     destination = ROOT/'dist'
     destination.mkdir(exist_ok=True)
-    for name in ['index.html', 'app.js']:
+    for name in ['index.html', 'app.js', 'ledger.css', 'ledger-model.js', 'ledger-ui.js']:
         shutil.copy2(ROOT/'site'/name, destination/name)
     public = json.loads(json.dumps(data))
     for r in public['reports']:

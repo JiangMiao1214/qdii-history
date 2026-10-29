@@ -62,7 +62,8 @@ jobs:
       - name: Collect and independently validate new reports
         run: python scripts/collect.py
       - run: python scripts/build.py
-      - run: node --check dist/app.js
+      - run: node --check dist/app.js && node --check dist/ledger-ui.js
+      - run: node --test tests/test_ledger.cjs
       - name: Preserve the validated archive and successful check
         run: |
           git config user.name 'github-actions[bot]'
@@ -117,4 +118,3 @@ jobs:
           script: |
             const notify = require('./scripts/notify.cjs');
             await notify({github, context, core});
-
