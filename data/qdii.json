@@ -2,8 +2,8 @@
   "meta": {
     "title": "QDII 额度观察",
     "rangeStart": "2021-10",
-    "rangeEnd": "2026-09",
-    "retrievedAt": "2026-10-29",
+    "rangeEnd": "2026-10",
+    "retrievedAt": "2026-10-31",
     "unit": "亿美元",
     "methodology": [
       "从2021年10月起保留全部历史，随新报告延长观察区间；报告截至日以PDF正文为准。",
@@ -15,7 +15,7 @@
       "缺失月份不插值、不沿用前值，不据此判断当月未发布或额度未变。发布日与统计截至日分别记录。",
       "每月月底检查官方来源，只有通过机构明细、分类合计和总计核验的报告才入库；最近成功检查时间显示在页面上。来源链接指向官方原件。"
     ],
-    "checkedAt": "2026-10-29T20:53:20+08:00",
+    "checkedAt": "2026-10-31T03:46:42+08:00",
     "automationStatus": "月底云端更新"
   },
   "reports": [
@@ -86237,6 +86237,1601 @@
         }
       ],
       "archivePath": "data/pdf/2026-09-30-e0cb5593e6d9.pdf"
+    },
+    {
+      "month": "2026-10",
+      "date": "2026-10-31",
+      "dateLabel": "2026年10月末",
+      "total": 1830.09,
+      "count": 196,
+      "categories": {
+        "银行类": 309.9,
+        "证券基金类": 1010.0,
+        "保险类": 420.03,
+        "信托类": 90.16
+      },
+      "categoryCounts": {
+        "银行类": 45,
+        "证券基金类": 79,
+        "保险类": 48,
+        "信托类": 24
+      },
+      "pageUrl": "https://www.safe.gov.cn/safe/2018/0425/16849.html",
+      "pdfUrl": "https://www.safe.gov.cn/safe/file/file/20261030/1b25d6988a924587a1e38f8671676d10.pdf",
+      "publisher": "国家外汇管理局",
+      "publishedDate": "2026-10-30",
+      "sha256": "3d877252948d00df41a5831433814f183744a0fd4892802d501d8652e05d6787",
+      "institutions": [
+        {
+          "sequence": 1,
+          "name": "中国银行股份有限公司（中银理财有限责任公司）",
+          "id": "中国银行股份有限公司(中银理财有限责任公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 32.7,
+          "category": "银行类"
+        },
+        {
+          "sequence": 2,
+          "name": "中国工商银行股份有限公司（工银理财有限责任公司）",
+          "id": "中国工商银行股份有限公司(工银理财有限责任公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 29.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 3,
+          "name": "东亚银行（中国）有限公司",
+          "id": "东亚银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 4.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 4,
+          "name": "交通银行股份有限公司（交银理财有限责任公司）",
+          "id": "交通银行股份有限公司(交银理财有限责任公司)",
+          "approvedDate": "2025-06-19",
+          "quota": 5.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 5,
+          "name": "中国建设银行股份有限公司（建信理财有限责任公司）",
+          "id": "中国建设银行股份有限公司(建信理财有限责任公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 7.1,
+          "category": "银行类"
+        },
+        {
+          "sequence": 6,
+          "name": "汇丰银行（中国）有限公司",
+          "id": "汇丰银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 65.74,
+          "category": "银行类"
+        },
+        {
+          "sequence": 7,
+          "name": "招商银行股份有限公司（招银理财有限责任公司）",
+          "id": "招商银行股份有限公司(招银理财有限责任公司)",
+          "approvedDate": "2026-03-23",
+          "quota": 25.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 8,
+          "name": "中信银行股份有限公司",
+          "id": "中信银行股份有限公司",
+          "approvedDate": "2014-04-23",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 9,
+          "name": "恒生银行（中国）有限公司",
+          "id": "恒生银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 5.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 10,
+          "name": "花旗银行（中国）有限公司",
+          "id": "花旗银行(中国)有限公司",
+          "approvedDate": "2021-01-06",
+          "quota": 19.36,
+          "category": "银行类"
+        },
+        {
+          "sequence": 11,
+          "name": "兴业银行股份有限公司（兴银理财有限责任公司）",
+          "id": "兴业银行股份有限公司(兴银理财有限责任公司)",
+          "approvedDate": "2022-06-29",
+          "quota": 7.2,
+          "category": "银行类"
+        },
+        {
+          "sequence": 12,
+          "name": "渣打银行（中国）有限公司",
+          "id": "渣打银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 30.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 13,
+          "name": "中国民生银行股份有限公司",
+          "id": "中国民生银行股份有限公司",
+          "approvedDate": "2006-11-08",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 14,
+          "name": "中国光大银行股份有限公司（光大理财有限责任公司）",
+          "id": "中国光大银行股份有限公司(光大理财有限责任公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 3.8,
+          "category": "银行类"
+        },
+        {
+          "sequence": 15,
+          "name": "北京银行股份有限公司（北银理财有限责任公司）",
+          "id": "北京银行股份有限公司(北银理财有限责任公司)",
+          "approvedDate": "2026-03-23",
+          "quota": 1.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 16,
+          "name": "中国银行（香港）有限公司内地分行",
+          "id": "中国银行(香港)有限公司内地分行",
+          "approvedDate": "2007-01-11",
+          "quota": 0.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 17,
+          "name": "瑞士信贷银行股份有限公司上海分行",
+          "id": "瑞士信贷银行股份有限公司上海分行",
+          "approvedDate": "2007-01-30",
+          "quota": 0.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 18,
+          "name": "中国农业银行股份有限公司（农银理财有限责任公司）",
+          "id": "中国农业银行股份有限公司(农银理财有限责任公司)",
+          "approvedDate": "2020-10-09",
+          "quota": 2.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 19,
+          "name": "南洋商业银行(中国)有限公司",
+          "id": "南洋商业银行(中国)有限公司",
+          "approvedDate": "2015-02-13",
+          "quota": 1.8,
+          "category": "银行类"
+        },
+        {
+          "sequence": 20,
+          "name": "德意志银行（中国）有限公司",
+          "id": "德意志银行(中国)有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 0.4,
+          "category": "银行类"
+        },
+        {
+          "sequence": 21,
+          "name": "上海浦东发展银行股份有限公司",
+          "id": "上海浦东发展银行股份有限公司",
+          "approvedDate": "2007-08-31",
+          "quota": 0.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 22,
+          "name": "上海银行股份有限公司",
+          "id": "上海银行股份有限公司",
+          "approvedDate": "2008-01-24",
+          "quota": 0.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 23,
+          "name": "星展银行（中国）有限公司",
+          "id": "星展银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 13.25,
+          "category": "银行类"
+        },
+        {
+          "sequence": 24,
+          "name": "法国巴黎银行（中国）有限公司",
+          "id": "法国巴黎银行(中国)有限公司",
+          "approvedDate": "2023-01-11",
+          "quota": 2.2,
+          "category": "银行类"
+        },
+        {
+          "sequence": 25,
+          "name": "法国兴业银行（中国）有限公司",
+          "id": "法国兴业银行(中国)有限公司",
+          "approvedDate": "2010-09-01",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 26,
+          "name": "华侨银行有限公司",
+          "id": "华侨银行有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 27,
+          "name": "澳大利亚和新西兰银行（中国）有限公司",
+          "id": "澳大利亚和新西兰银行(中国)有限公司",
+          "approvedDate": "2014-10-30",
+          "quota": 3.15,
+          "category": "银行类"
+        },
+        {
+          "sequence": 28,
+          "name": "大华银行（中国）有限公司",
+          "id": "大华银行(中国)有限公司",
+          "approvedDate": "2021-12-15",
+          "quota": 4.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 29,
+          "name": "瑞士银行（中国）有限公司",
+          "id": "瑞士银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 30,
+          "name": "平安银行股份有限公司",
+          "id": "平安银行股份有限公司",
+          "approvedDate": "2014-09-22",
+          "quota": 2.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 31,
+          "name": "中邮理财有限责任公司",
+          "id": "中邮理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.8,
+          "category": "银行类"
+        },
+        {
+          "sequence": 32,
+          "name": "富邦华一银行有限公司",
+          "id": "富邦华一银行有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 6.5,
+          "category": "银行类"
+        },
+        {
+          "sequence": 33,
+          "name": "宁银理财有限责任公司",
+          "id": "宁银理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 5.4,
+          "category": "银行类"
+        },
+        {
+          "sequence": 34,
+          "name": "杭银理财有限责任公司",
+          "id": "杭银理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.1,
+          "category": "银行类"
+        },
+        {
+          "sequence": 35,
+          "name": "创兴银行有限公司广州分行",
+          "id": "创兴银行有限公司广州分行",
+          "approvedDate": "2022-06-29",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 36,
+          "name": "贝莱德建信理财有限责任公司",
+          "id": "贝莱德建信理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.9,
+          "category": "银行类"
+        },
+        {
+          "sequence": 37,
+          "name": "高盛工银理财有限责任公司",
+          "id": "高盛工银理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 38,
+          "name": "施罗德交银理财有限公司",
+          "id": "施罗德交银理财有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.7,
+          "category": "银行类"
+        },
+        {
+          "sequence": 39,
+          "name": "摩根大通银行（中国）有限公司",
+          "id": "摩根大通银行(中国)有限公司",
+          "approvedDate": "2023-07-27",
+          "quota": 1.2,
+          "category": "银行类"
+        },
+        {
+          "sequence": 40,
+          "name": "汇华理财有限公司",
+          "id": "汇华理财有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 1.1,
+          "category": "银行类"
+        },
+        {
+          "sequence": 41,
+          "name": "法巴农银理财有限责任公司",
+          "id": "法巴农银理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.3,
+          "category": "银行类"
+        },
+        {
+          "sequence": 42,
+          "name": "东方汇理银行（中国）有限公司",
+          "id": "东方汇理银行(中国)有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 0.8,
+          "category": "银行类"
+        },
+        {
+          "sequence": 43,
+          "name": "上银理财有限责任公司",
+          "id": "上银理财有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 44,
+          "name": "华美银行（中国）有限公司",
+          "id": "华美银行(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 45,
+          "name": "中信银行国际（中国）有限公司",
+          "id": "中信银行国际(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.0,
+          "category": "银行类"
+        },
+        {
+          "sequence": 46,
+          "name": "华安基金管理有限公司",
+          "id": "华安基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 25.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 47,
+          "name": "南方基金管理股份有限公司",
+          "id": "南方基金管理股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 61.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 48,
+          "name": "华夏基金管理有限公司",
+          "id": "华夏基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 69.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 49,
+          "name": "嘉实基金管理有限公司",
+          "id": "嘉实基金管理有限公司",
+          "approvedDate": "2024-05-09",
+          "quota": 42.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 50,
+          "name": "摩根基金管理（中国）有限公司",
+          "id": "摩根基金管理(中国)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 29.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 51,
+          "name": "工银瑞信基金管理有限公司",
+          "id": "工银瑞信基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 7.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 52,
+          "name": "华宝基金管理有限公司",
+          "id": "华宝基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 16.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 53,
+          "name": "中国国际金融股份有限公司",
+          "id": "中国国际金融股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 28.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 54,
+          "name": "海富通基金管理有限公司",
+          "id": "海富通基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 8.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 55,
+          "name": "银华基金管理股份有限公司",
+          "id": "银华基金管理股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 17.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 56,
+          "name": "招商证券资产管理有限公司",
+          "id": "招商证券资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 6.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 57,
+          "name": "交银施罗德基金管理有限公司",
+          "id": "交银施罗德基金管理有限公司",
+          "approvedDate": "2023-01-11",
+          "quota": 25.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 58,
+          "name": "易方达基金管理有限公司",
+          "id": "易方达基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 79.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 59,
+          "name": "招商基金管理有限公司",
+          "id": "招商基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 22.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 60,
+          "name": "博时基金管理有限公司",
+          "id": "博时基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 39.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 61,
+          "name": "汇添富基金管理股份有限公司",
+          "id": "汇添富基金管理股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 17.7,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 62,
+          "name": "广发基金管理有限公司",
+          "id": "广发基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 45.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 63,
+          "name": "鹏华基金管理有限公司",
+          "id": "鹏华基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 18.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 64,
+          "name": "长盛基金管理有限公司",
+          "id": "长盛基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 4.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 65,
+          "name": "国泰基金管理有限公司",
+          "id": "国泰基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 17.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 66,
+          "name": "国投瑞银基金管理有限公司",
+          "id": "国投瑞银基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 22.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 67,
+          "name": "建信基金管理有限责任公司",
+          "id": "建信基金管理有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 18.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 68,
+          "name": "中信保诚基金管理有限公司",
+          "id": "中信保诚基金管理有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 12.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 69,
+          "name": "诺安基金管理有限公司",
+          "id": "诺安基金管理有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 6.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 70,
+          "name": "光大保德信基金管理有限公司",
+          "id": "光大保德信基金管理有限公司",
+          "approvedDate": "2020-11-04",
+          "quota": 7.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 71,
+          "name": "富国基金管理有限公司",
+          "id": "富国基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 24.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 72,
+          "name": "大成基金管理有限公司",
+          "id": "大成基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 16.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 73,
+          "name": "中银基金管理有限公司",
+          "id": "中银基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 9.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 74,
+          "name": "宏利基金管理有限公司",
+          "id": "宏利基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 5.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 75,
+          "name": "华泰证券（上海）资产管理有限公司",
+          "id": "华泰证券(上海)资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 11.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 76,
+          "name": "上海国泰海通证券资产管理有限公司",
+          "id": "上海国泰海通证券资产管理有限公司",
+          "approvedDate": "2024-05-09",
+          "quota": 23.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 77,
+          "name": "长信基金管理有限责任公司",
+          "id": "长信基金管理有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 8.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 78,
+          "name": "华泰柏瑞基金管理有限公司",
+          "id": "华泰柏瑞基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 17.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 79,
+          "name": "上海光大证券资产管理有限公司",
+          "id": "上海光大证券资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 6.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 80,
+          "name": "景顺长城基金管理有限公司",
+          "id": "景顺长城基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 14.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 81,
+          "name": "国海富兰克林基金管理有限公司",
+          "id": "国海富兰克林基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 13.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 82,
+          "name": "国信证券股份有限公司（国信证券资产管理有限公司）",
+          "id": "国信证券股份有限公司(国信证券资产管理有限公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 12.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 83,
+          "name": "融通基金管理有限公司",
+          "id": "融通基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 11.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 84,
+          "name": "广发证券资产管理（广东）有限公司",
+          "id": "广发证券资产管理(广东)有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 18.7,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 85,
+          "name": "中信证券股份有限公司（中信证券资产管理有限公司）",
+          "id": "中信证券股份有限公司(中信证券资产管理有限公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 15.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 86,
+          "name": "国投证券资产管理有限公司",
+          "id": "国投证券资产管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 6.7,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 87,
+          "name": "申万宏源证券有限公司（申万宏源证券资产管理有限公司）",
+          "id": "申万宏源证券有限公司(申万宏源证券资产管理有限公司)",
+          "approvedDate": "2026-08-26",
+          "quota": 5.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 88,
+          "name": "中银国际证券股份有限公司",
+          "id": "中银国际证券股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 7.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 89,
+          "name": "银河金汇证券资产管理有限公司",
+          "id": "银河金汇证券资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 5.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 90,
+          "name": "太平洋证券股份有限公司",
+          "id": "太平洋证券股份有限公司",
+          "approvedDate": "2014-04-30",
+          "quota": 2.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 91,
+          "name": "天弘基金管理有限公司",
+          "id": "天弘基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 23.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 92,
+          "name": "东方基金管理股份有限公司",
+          "id": "东方基金管理股份有限公司",
+          "approvedDate": "2024-05-09",
+          "quota": 1.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 93,
+          "name": "财通基金管理有限公司",
+          "id": "财通基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 4.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 94,
+          "name": "兴证证券资产管理有限公司",
+          "id": "兴证证券资产管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 2.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 95,
+          "name": "中加基金管理有限公司",
+          "id": "中加基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 3.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 96,
+          "name": "浦银安盛基金管理有限公司",
+          "id": "浦银安盛基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 6.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 97,
+          "name": "国寿安保基金管理有限公司",
+          "id": "国寿安保基金管理有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 4.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 98,
+          "name": "中信建投证券股份有限公司",
+          "id": "中信建投证券股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 6.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 99,
+          "name": "申万菱信基金管理有限公司",
+          "id": "申万菱信基金管理有限公司",
+          "approvedDate": "2024-05-09",
+          "quota": 5.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 100,
+          "name": "国联基金管理有限公司",
+          "id": "国联基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 2.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 101,
+          "name": "前海开源基金管理有限公司",
+          "id": "前海开源基金管理有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 4.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 102,
+          "name": "国金证券股份有限公司（国金证券资产管理有限公司）",
+          "id": "国金证券股份有限公司(国金证券资产管理有限公司)",
+          "approvedDate": "2026-03-23",
+          "quota": 2.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 103,
+          "name": "上海东方证券资产管理有限公司",
+          "id": "上海东方证券资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 104,
+          "name": "兴业基金管理有限公司",
+          "id": "兴业基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 105,
+          "name": "万家基金管理有限公司",
+          "id": "万家基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 4.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 106,
+          "name": "德邦证券股份有限公司",
+          "id": "德邦证券股份有限公司",
+          "approvedDate": "2020-09-22",
+          "quota": 0.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 107,
+          "name": "创金合信基金管理有限公司",
+          "id": "创金合信基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.6,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 108,
+          "name": "长城基金管理有限公司",
+          "id": "长城基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 8.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 109,
+          "name": "中欧基金管理有限公司",
+          "id": "中欧基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 10.3,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 110,
+          "name": "平安证券股份有限公司",
+          "id": "平安证券股份有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 2.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 111,
+          "name": "华鑫证券有限责任公司",
+          "id": "华鑫证券有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.9,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 112,
+          "name": "平安基金管理有限公司",
+          "id": "平安基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 2.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 113,
+          "name": "永赢基金管理有限公司",
+          "id": "永赢基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 114,
+          "name": "兴证全球基金管理有限公司",
+          "id": "兴证全球基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 115,
+          "name": "宝盈基金管理有限公司",
+          "id": "宝盈基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.7,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 116,
+          "name": "东兴证券股份有限公司",
+          "id": "东兴证券股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.8,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 117,
+          "name": "摩根士丹利基金管理（中国）有限公司",
+          "id": "摩根士丹利基金管理(中国)有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 1.4,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 118,
+          "name": "汇丰晋信基金管理有限公司",
+          "id": "汇丰晋信基金管理有限公司",
+          "approvedDate": "2023-07-27",
+          "quota": 1.2,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 119,
+          "name": "上银基金管理有限公司",
+          "id": "上银基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 1.7,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 120,
+          "name": "西部利得基金管理有限公司",
+          "id": "西部利得基金管理有限公司",
+          "approvedDate": "2024-05-09",
+          "quota": 0.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 121,
+          "name": "睿远基金管理有限公司",
+          "id": "睿远基金管理有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 0.5,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 122,
+          "name": "财通证券资产管理有限公司",
+          "id": "财通证券资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.1,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 123,
+          "name": "安信基金管理有限责任公司",
+          "id": "安信基金管理有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 124,
+          "name": "鑫元基金管理有限公司",
+          "id": "鑫元基金管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.0,
+          "category": "证券基金类"
+        },
+        {
+          "sequence": 125,
+          "name": "中国平安保险（集团）股份有限公司",
+          "id": "中国平安保险(集团)股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 78.6,
+          "category": "保险类"
+        },
+        {
+          "sequence": 126,
+          "name": "中国人寿保险（集团）公司",
+          "id": "中国人寿保险(集团)公司",
+          "approvedDate": "2026-08-26",
+          "quota": 1.8,
+          "category": "保险类"
+        },
+        {
+          "sequence": 127,
+          "name": "中国人民财产保险股份有限公司",
+          "id": "中国人民财产保险股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 10.8,
+          "category": "保险类"
+        },
+        {
+          "sequence": 128,
+          "name": "中国人寿保险股份有限公司",
+          "id": "中国人寿保险股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 43.2,
+          "category": "保险类"
+        },
+        {
+          "sequence": 129,
+          "name": "泰康人寿保险有限责任公司",
+          "id": "泰康人寿保险有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 23.15,
+          "category": "保险类"
+        },
+        {
+          "sequence": 130,
+          "name": "中意人寿保险有限公司",
+          "id": "中意人寿保险有限公司",
+          "approvedDate": "2014-12-28",
+          "quota": 4.15,
+          "category": "保险类"
+        },
+        {
+          "sequence": 131,
+          "name": "中国人民保险集团股份有限公司",
+          "id": "中国人民保险集团股份有限公司",
+          "approvedDate": "2021-06-01",
+          "quota": 5.15,
+          "category": "保险类"
+        },
+        {
+          "sequence": 132,
+          "name": "富德生命人寿保险股份有限公司",
+          "id": "富德生命人寿保险股份有限公司",
+          "approvedDate": "2007-08-16",
+          "quota": 44.09,
+          "category": "保险类"
+        },
+        {
+          "sequence": 133,
+          "name": "中国再保险（集团）股份有限公司",
+          "id": "中国再保险(集团)股份有限公司",
+          "approvedDate": "2021-06-01",
+          "quota": 10.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 134,
+          "name": "中国太平洋保险（集团）股份有限公司",
+          "id": "中国太平洋保险(集团)股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.17,
+          "category": "保险类"
+        },
+        {
+          "sequence": 135,
+          "name": "中国太平洋人寿保险股份有限公司",
+          "id": "中国太平洋人寿保险股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 22.6,
+          "category": "保险类"
+        },
+        {
+          "sequence": 136,
+          "name": "中国人民健康保险股份有限公司",
+          "id": "中国人民健康保险股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 1.95,
+          "category": "保险类"
+        },
+        {
+          "sequence": 137,
+          "name": "中国人民人寿保险股份有限公司",
+          "id": "中国人民人寿保险股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 7.14,
+          "category": "保险类"
+        },
+        {
+          "sequence": 138,
+          "name": "大家人寿保险股份有限公司",
+          "id": "大家人寿保险股份有限公司",
+          "approvedDate": "2018-11-28",
+          "quota": 18.1,
+          "category": "保险类"
+        },
+        {
+          "sequence": 139,
+          "name": "太平人寿保险有限公司",
+          "id": "太平人寿保险有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 4.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 140,
+          "name": "华安财产保险股份有限公司",
+          "id": "华安财产保险股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 1.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 141,
+          "name": "华泰财产保险股份有限公司",
+          "id": "华泰财产保险股份有限公司",
+          "approvedDate": "2007-11-15",
+          "quota": 0.3,
+          "category": "保险类"
+        },
+        {
+          "sequence": 142,
+          "name": "华泰资产管理有限公司",
+          "id": "华泰资产管理有限公司",
+          "approvedDate": "2007-04-23",
+          "quota": 0.3,
+          "category": "保险类"
+        },
+        {
+          "sequence": 143,
+          "name": "友邦人寿保险有限公司",
+          "id": "友邦人寿保险有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 5.28,
+          "category": "保险类"
+        },
+        {
+          "sequence": 144,
+          "name": "渤海财产保险股份有限公司",
+          "id": "渤海财产保险股份有限公司",
+          "approvedDate": "2007-12-18",
+          "quota": 0.05,
+          "category": "保险类"
+        },
+        {
+          "sequence": 145,
+          "name": "工银安盛人寿保险有限公司",
+          "id": "工银安盛人寿保险有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 2.88,
+          "category": "保险类"
+        },
+        {
+          "sequence": 146,
+          "name": "都邦财产保险股份有限公司",
+          "id": "都邦财产保险股份有限公司",
+          "approvedDate": "2008-01-23",
+          "quota": 0.25,
+          "category": "保险类"
+        },
+        {
+          "sequence": 147,
+          "name": "太平财产保险有限公司",
+          "id": "太平财产保险有限公司",
+          "approvedDate": "2009-12-30",
+          "quota": 0.79,
+          "category": "保险类"
+        },
+        {
+          "sequence": 148,
+          "name": "亚太财产保险有限公司",
+          "id": "亚太财产保险有限公司",
+          "approvedDate": "2010-04-14",
+          "quota": 0.25,
+          "category": "保险类"
+        },
+        {
+          "sequence": 149,
+          "name": "中国财产再保险有限责任公司",
+          "id": "中国财产再保险有限责任公司",
+          "approvedDate": "2026-08-26",
+          "quota": 7.72,
+          "category": "保险类"
+        },
+        {
+          "sequence": 150,
+          "name": "中国出口信用保险公司",
+          "id": "中国出口信用保险公司",
+          "approvedDate": "2026-08-26",
+          "quota": 12.4,
+          "category": "保险类"
+        },
+        {
+          "sequence": 151,
+          "name": "新华人寿保险股份有限公司",
+          "id": "新华人寿保险股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 25.5,
+          "category": "保险类"
+        },
+        {
+          "sequence": 152,
+          "name": "永诚财产保险股份有限公司",
+          "id": "永诚财产保险股份有限公司",
+          "approvedDate": "2012-12-26",
+          "quota": 0.3,
+          "category": "保险类"
+        },
+        {
+          "sequence": 153,
+          "name": "天安财产保险股份有限公司",
+          "id": "天安财产保险股份有限公司",
+          "approvedDate": "2015-03-26",
+          "quota": 8.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 154,
+          "name": "阳光人寿保险股份有限公司",
+          "id": "阳光人寿保险股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 18.8,
+          "category": "保险类"
+        },
+        {
+          "sequence": 155,
+          "name": "中国人寿再保险股份有限公司",
+          "id": "中国人寿再保险股份有限公司",
+          "approvedDate": "2013-12-09",
+          "quota": 10.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 156,
+          "name": "复星保德信人寿保险有限公司",
+          "id": "复星保德信人寿保险有限公司",
+          "approvedDate": "2014-01-22",
+          "quota": 0.11,
+          "category": "保险类"
+        },
+        {
+          "sequence": 157,
+          "name": "太平再保险有限公司北京分公司",
+          "id": "太平再保险有限公司北京分公司",
+          "approvedDate": "2014-02-25",
+          "quota": 0.5,
+          "category": "保险类"
+        },
+        {
+          "sequence": 158,
+          "name": "华夏人寿保险股份有限公司",
+          "id": "华夏人寿保险股份有限公司",
+          "approvedDate": "2015-01-30",
+          "quota": 7.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 159,
+          "name": "合众人寿保险股份有限公司",
+          "id": "合众人寿保险股份有限公司",
+          "approvedDate": "2021-05-18",
+          "quota": 3.5,
+          "category": "保险类"
+        },
+        {
+          "sequence": 160,
+          "name": "中国人寿资产管理有限公司",
+          "id": "中国人寿资产管理有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.6,
+          "category": "保险类"
+        },
+        {
+          "sequence": 161,
+          "name": "中邮人寿保险股份有限公司",
+          "id": "中邮人寿保险股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 3.8,
+          "category": "保险类"
+        },
+        {
+          "sequence": 162,
+          "name": "泰山财产保险股份有限公司",
+          "id": "泰山财产保险股份有限公司",
+          "approvedDate": "2015-01-30",
+          "quota": 0.2,
+          "category": "保险类"
+        },
+        {
+          "sequence": 163,
+          "name": "前海人寿保险股份有限公司",
+          "id": "前海人寿保险股份有限公司",
+          "approvedDate": "2020-11-04",
+          "quota": 6.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 164,
+          "name": "泰康资产管理有限责任公司",
+          "id": "泰康资产管理有限责任公司",
+          "approvedDate": "2021-06-01",
+          "quota": 7.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 165,
+          "name": "中华联合财产保险股份有限公司",
+          "id": "中华联合财产保险股份有限公司",
+          "approvedDate": "2018-04-24",
+          "quota": 2.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 166,
+          "name": "光大永明人寿保险有限公司",
+          "id": "光大永明人寿保险有限公司",
+          "approvedDate": "2018-04-24",
+          "quota": 1.2,
+          "category": "保险类"
+        },
+        {
+          "sequence": 167,
+          "name": "国华人寿保险股份有限公司",
+          "id": "国华人寿保险股份有限公司",
+          "approvedDate": "2025-06-19",
+          "quota": 3.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 168,
+          "name": "中国大地财产保险股份有限公司",
+          "id": "中国大地财产保险股份有限公司",
+          "approvedDate": "2026-03-23",
+          "quota": 2.2,
+          "category": "保险类"
+        },
+        {
+          "sequence": 169,
+          "name": "中国太平洋财产保险股份有限公司",
+          "id": "中国太平洋财产保险股份有限公司",
+          "approvedDate": "2018-05-30",
+          "quota": 2.1,
+          "category": "保险类"
+        },
+        {
+          "sequence": 170,
+          "name": "百年人寿保险股份有限公司",
+          "id": "百年人寿保险股份有限公司",
+          "approvedDate": "2020-11-04",
+          "quota": 1.0,
+          "category": "保险类"
+        },
+        {
+          "sequence": 171,
+          "name": "中信保诚人寿保险有限公司",
+          "id": "中信保诚人寿保险有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.6,
+          "category": "保险类"
+        },
+        {
+          "sequence": 172,
+          "name": "泰康保险集团股份有限公司",
+          "id": "泰康保险集团股份有限公司",
+          "approvedDate": "2026-08-26",
+          "quota": 2.5,
+          "category": "保险类"
+        },
+        {
+          "sequence": 173,
+          "name": "中诚信托有限责任公司",
+          "id": "中诚信托有限责任公司",
+          "approvedDate": "2014-11-27",
+          "quota": 16.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 174,
+          "name": "上海国际信托有限公司",
+          "id": "上海国际信托有限公司",
+          "approvedDate": "2014-12-28",
+          "quota": 9.5,
+          "category": "信托类"
+        },
+        {
+          "sequence": 175,
+          "name": "中海信托股份有限公司",
+          "id": "中海信托股份有限公司",
+          "approvedDate": "2018-04-24",
+          "quota": 3.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 176,
+          "name": "平安信托有限责任公司",
+          "id": "平安信托有限责任公司",
+          "approvedDate": "2011-09-30",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 177,
+          "name": "大连华信信托股份有限公司",
+          "id": "大连华信信托股份有限公司",
+          "approvedDate": "2011-12-20",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 178,
+          "name": "华宝信托有限责任公司",
+          "id": "华宝信托有限责任公司",
+          "approvedDate": "2020-11-30",
+          "quota": 20.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 179,
+          "name": "中信信托有限责任公司",
+          "id": "中信信托有限责任公司",
+          "approvedDate": "2014-12-28",
+          "quota": 9.5,
+          "category": "信托类"
+        },
+        {
+          "sequence": 180,
+          "name": "新华信托股份有限公司",
+          "id": "新华信托股份有限公司",
+          "approvedDate": "2015-01-30",
+          "quota": 1.5,
+          "category": "信托类"
+        },
+        {
+          "sequence": 181,
+          "name": "中国对外经济贸易信托有限公司",
+          "id": "中国对外经济贸易信托有限公司",
+          "approvedDate": "2014-09-22",
+          "quota": 5.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 182,
+          "name": "建信信托有限责任公司",
+          "id": "建信信托有限责任公司",
+          "approvedDate": "2014-11-27",
+          "quota": 4.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 183,
+          "name": "中融国际信托有限公司",
+          "id": "中融国际信托有限公司",
+          "approvedDate": "2014-11-27",
+          "quota": 3.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 184,
+          "name": "兴业国际信托有限公司",
+          "id": "兴业国际信托有限公司",
+          "approvedDate": "2020-09-22",
+          "quota": 2.8,
+          "category": "信托类"
+        },
+        {
+          "sequence": 185,
+          "name": "北京国际信托有限公司",
+          "id": "北京国际信托有限公司",
+          "approvedDate": "2015-02-13",
+          "quota": 3.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 186,
+          "name": "交银国际信托有限公司",
+          "id": "交银国际信托有限公司",
+          "approvedDate": "2015-03-26",
+          "quota": 2.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 187,
+          "name": "长安国际信托股份有限公司",
+          "id": "长安国际信托股份有限公司",
+          "approvedDate": "2018-04-24",
+          "quota": 1.8,
+          "category": "信托类"
+        },
+        {
+          "sequence": 188,
+          "name": "重庆国际信托股份有限公司",
+          "id": "重庆国际信托股份有限公司",
+          "approvedDate": "2018-05-30",
+          "quota": 0.5,
+          "category": "信托类"
+        },
+        {
+          "sequence": 189,
+          "name": "国投泰康信托有限公司",
+          "id": "国投泰康信托有限公司",
+          "approvedDate": "2018-05-30",
+          "quota": 0.7,
+          "category": "信托类"
+        },
+        {
+          "sequence": 190,
+          "name": "中国民生信托有限公司",
+          "id": "中国民生信托有限公司",
+          "approvedDate": "2018-05-30",
+          "quota": 0.6,
+          "category": "信托类"
+        },
+        {
+          "sequence": 191,
+          "name": "华润深国投信托有限公司",
+          "id": "华润深国投信托有限公司",
+          "approvedDate": "2020-11-30",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 192,
+          "name": "中粮信托有限责任公司",
+          "id": "中粮信托有限责任公司",
+          "approvedDate": "2020-11-30",
+          "quota": 0.26,
+          "category": "信托类"
+        },
+        {
+          "sequence": 193,
+          "name": "五矿国际信托有限公司",
+          "id": "五矿国际信托有限公司",
+          "approvedDate": "2020-11-30",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 194,
+          "name": "华能贵诚信托有限公司",
+          "id": "华能贵诚信托有限公司",
+          "approvedDate": "2020-11-30",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 195,
+          "name": "光大兴陇信托有限责任公司",
+          "id": "光大兴陇信托有限责任公司",
+          "approvedDate": "2020-11-30",
+          "quota": 1.0,
+          "category": "信托类"
+        },
+        {
+          "sequence": 196,
+          "name": "华鑫国际信托有限公司",
+          "id": "华鑫国际信托有限公司",
+          "approvedDate": "2020-11-30",
+          "quota": 1.0,
+          "category": "信托类"
+        }
+      ],
+      "archivePath": "data/pdf/2026-10-31-3d877252948d.pdf"
     }
   ],
   "missingMonths": [
